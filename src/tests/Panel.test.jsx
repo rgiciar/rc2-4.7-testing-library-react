@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { test } from "vitest";
+import { expect, test } from "vitest";
 import { Panel } from "../components/Panel";
 
 test("El panel no muestra mensaje al principio", () => {
